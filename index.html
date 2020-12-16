@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Great Santa Dash</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icono" type="image/x-icon" href="img/icono.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <script src="js/java.js"></script>
+</head>
+
+<body>
+    <ul id="nav">
+        <li><a href="#que-es">¿Qué es?</a></li>
+        <li><a href="#info">Información</a></li>
+        <li><a href="#inscripciones">Inscripciones</a></li>
+        <li><a href="#donaciones">Donaciones</a></li>
+        <li><a href="#voluntario">Voluntario</a></li>
+    </ul>
+
+    <div class="header">
+        <h1>Great Santa Dash</h1>
+    </div>
+
+    <div class="row" id="que-es">
+        <div class="two-column">
+            <h1>¿Qué es Great Santa Dash?</h1>
+            <p>Great Santa Dash es una competencia de 5 kilómetros que se realiza en cada vez más ciudades del mundo, y que con sólo ver imágenes de ellas basta para darse cuenta que es de lo más particular. Tal vez sea demasiado extravagante, pero todo
+                es por una buena causa. Esta competencia tiene una única condición, y es ir vestido de Papá Noel.</p>
+            <p>La participación más multitudinaria es la de Reino Unido, en donde este año participaron más de 1500 Papás Noel de todas las edades, y lo hicieron con el objetivo de recaudar dinero para fundaciones benéficas.</p>
+            <p>En diferentes ciudades de Europa y de Estados Unidos también se lleva adelante esta iniciativa, con cada vez más adeptos.</p>
+            <p>¿Te gustaría participar?</p>
+        </div>
+        <div class="two-column">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/9oQ6FXF2Omc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="one-column" id="info">
+        <h1>Información</h1>
+        <h2>Como esta maratón se realiza en diferentes partes del mundo y a diferentes horas a continuación hay una tabla con las maratones confirmadas.</h2>
+        <table id="tabla">
+            <tr>
+                <th>Ubicación</th>
+                <th>Fecha</th>
+                <th>Hora (local)</th>
+            </tr>
+            <tr>
+                <td>Overland Park, Kansas, EE.UU.</td>
+                <td>16/12/2020</td>
+                <td>17:00</td>
+            </tr>
+            <tr>
+                <td>Reno, Nevada, EE.UU.</td>
+                <td>18/12/2020</td>
+                <td>12:00</td>
+            </tr>
+            <tr>
+                <td>Brockwell Park, Brixton, Londres</td>
+                <td>15/12/2020</td>
+                <td>18:00</td>
+            </tr>
+            <tr>
+                <td>Puerta del Sol, Madrid, España</td>
+                <td>21/12/2020</td>
+                <td>12:00</td>
+            </tr>
+            <tr>
+                <td>Rosensteinstraße, Stuttgart, Alemania</td>
+                <td>12/12/2020</td>
+                <td>17:00</td>
+            </tr>
+            <tr>
+                <td>Parc Monceau, Paris, Francia</td>
+                <td>19/12/2020</td>
+                <td>12:00</td>
+            </tr>
+        </table>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d501532.26954402553!2d-94.670899!3d38.890527!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0c1d94aa5fa7b%3A0x9e3e1c8e9f95f466!2s7200%20W%20132nd%20St%2C%20Overland%20Park%2C%20KS%2066213!5e1!3m2!1ses!2sus!4v1608135256798!5m2!1ses!2sus"
+            width="1000" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <br>
+        <h3>Más informacion sobre la maraton:</h3>
+        <img src="/img/infografia.jpg" alt="infografia">
+        <a href="/img/infografia.pdf" download="infografia">Descarga la infografía haciendo clic aqui.</a>
+        <br>
+        <h2>Este año debido al coronavirus hay muchas maratones que se han cancelado y por eso este año se puede hacer la carrera virualmente.</h2>
+        <h3>Detalles:</h3>
+        <h3>El recorrido sera de 5km como siempre, sin embargo para tener pruebas de eso tendrás que usar una aplicación GPS para poder ver el recorrido que has hecho y enviar una captura a la siguiente dirección de correo: virtual@santadash.com</h3>
+    </div>
+
+    <div class="one-column" id="inscripciones">
+        <h1>Inscripciones</h1>
+        <form action="/inscripciones.php">
+            <label for="fname">Nombre</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Johnny"><br><br>
+            <label for="lname">Apellidos</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Ye"><br><br>
+            <label for="email">Correo electrónico</label><br>
+            <input type="text" id="email" name="email" placeholder="johnny@example.com"><br><br>
+            <label for="telf">Teléfono</label><br>
+            <input type="text" id="telf" name="telf" placeholder="111 11 11 11"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="row" id="donaciones">
+        <div class="col-75">
+            <div class="container">
+                <form action="/action_page.php">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Dirección de facturación</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Nombre Completo</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Johnny Ye">
+                            <label for="email"><i class="fa fa-envelope"></i> Correo electrónico</label>
+                            <input type="text" id="email" name="email" placeholder="johnny@example.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Dirección</label>
+                            <input type="text" id="adr" name="address" placeholder="Avinguda Mare de Déu de Bellvitge , 78">
+                            <label for="city"><i class="fa fa-institution"></i> Ciudad</label>
+                            <input type="text" id="city" name="city" placeholder="Barcelona">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="state">Pais</label>
+                                    <input type="text" id="state" name="state" placeholder="España">
+                                </div>
+                                <div class="col-50">
+                                    <label for="zip">Código postal</label>
+                                    <input type="text" id="zip" name="zip" placeholder="08907">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>Pago</h3>
+                            <label for="cname">Nombre en la tarjeta</label>
+                            <input type="text" id="cname" name="cardname" placeholder="Johnny Ye">
+                            <label for="ccnum">Número de tarjeta de crédito</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Mes de expiración</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="Agosto">
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Año de expiración</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                </div>
+                                <div class="col-50">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <input type="submit" value="Continuar a la comprobación" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="one-column" id="voluntario">
+        <h1>Voluntario</h1>
+        <h2>La maratón al ser de carácter solidario, no tenemos suficientes trabajadores para algunos puestos por lo que necesitamos la ayuda de algunas personas.</h2>
+        <h2>Los puestos para los que se necesitan voluntarios són:</h2>
+        <h2>Voluntarios de la línea de meta</h2>
+        <h3>Detalles:</h3>
+        <h3>Ayuda con las tareas en la línea de meta. Estarás armando bolsas para llevar con una medalla, una botella de agua y un refrigerio que los participantes tomarán al terminar la carrera.</h3>
+        <br>
+        <h2>Voluntario de la estación de agua del día de la carrera</h2>
+        <h3>Detalles:</h3>
+        <h3>Reparta vasos de agua a los participantes de la carrera durante la carrera / caminata de 5 km.</h3>
+        <br>
+        <h2>Monitor de curso</h2>
+        <h3>Detalles:</h3>
+        <h3>Mantenga a los corredores en curso y a salvo del tráfico.</h3>
+        <br>
+        <h2>Voluntario de la rifa</h2>
+        <h3>Detalles:</h3>
+        <h3>Ayuda con la distribución de premios para el sorteo después de la carrera.</h3>
+    </div>
+
+    <div class="row" id="footer">
+        <div class="four-column">
+            <img src="img/icono.png">
+        </div>
+        <div class="four-column">
+            <p>Contacto</p>
+            <iframe src="https://discord.com/widget?id=788807192970264586&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+        <div class="four-column">
+            <p>Reembolso</p>
+        </div>
+        <div class="four-column">
+            <p>Galeria</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
