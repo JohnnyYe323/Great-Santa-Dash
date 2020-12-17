@@ -28,6 +28,7 @@ ul {
     transition: 0.6s;
     font-size: 20px;
     font-weight: bold;
+    z-index: 1;
 }
 
 li {
@@ -106,7 +107,6 @@ li a:hover {
 #tabla th {
     border: 1px solid black;
     padding: 20px;
-    width: 25%;
     border-collapse: collapse;
 }
 
@@ -243,6 +243,7 @@ span.price {
         width: 50%;
         float: none;
         display: inline-block;
+        text-align: center;
     }
     li a {
         font-size: 20px;
@@ -257,6 +258,13 @@ span.price {
     }
     .one-column iframe {
         width: 100%;
+    }
+    .one-column img {
+        width: 100%;
+    }
+    #tabla {
+        width: 100%;
+        font-size: 12px;
     }
     .row {
         flex-direction: column-reverse;
